@@ -1,13 +1,4 @@
-import React from 'react';
+import HomePage from '@/pages/Landing/HomePage';
 
-const page = () => {
-    return (
-        <div>
-            <h1>
-                Home page
-            </h1>
-        </div>
-    );
-};
-
+const page = () => <HomePage />
 export default page;   
