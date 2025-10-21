@@ -1,5 +1,6 @@
 import { Exo } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const EXO = Exo({
   variable: "--font-exo",
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         className={`${EXO.variable} antialiased`}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );
