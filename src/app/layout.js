@@ -10,6 +10,9 @@ const EXO = Exo({
 export const metadata = {
   title: "YT Start",
   description: "Let us build your YouTube empire",
+  icons: {
+    icon: '/favIcon.svg',
+  }
 };
 
 export default function RootLayout({ children }) {
